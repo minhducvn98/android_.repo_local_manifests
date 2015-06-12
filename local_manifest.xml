@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remove CMUpdater - Unofficial Builds -->
+	<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+	<!-- Use Custom HAL -->
+	<project path="hardware/qcom/display-caf/msm7x27a" name="SlimLP-Y300/android_hardware_qcom_display-caf" revision="lp5.1" />
+	<project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" revision="lp5.1" />
+	<project path="hardware/qcom/audio-caf" name="Caio99BR/android_hardware_qcom_audio-caf" revision="cm-12.1" />
+	<!-- TWRP -->
+	<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.1" />
+	<!-- Project Vee3 -->
+	<project path="device/lge/vee3" name="TeamVee/android_device_lge_vee3" revision="cm-12.1" />
+	<project path="vendor/lge-vee3" name="TeamVee/android_vendor_lge-vee3" revision="cm-11.0" />
+	<project path="kernel/lge/VeeKernel" name="TeamVee/VeeKernel" revision="rel" />
+</manifest>
