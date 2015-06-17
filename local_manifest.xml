@@ -5,7 +5,7 @@
 	<!-- Use Custom HAL -->
 	<project path="hardware/qcom/display-caf/msm7x27a" name="msm7x30/android_hardware_qcom_display" revision="cm-12.1-caf-7x30" />
 	<project path="hardware/qcom/media-caf/msm7x27a" name="msm7x27a/android_hardware_qcom_media" revision="cm-12.1-caf-msm7x27a" />
-	<project path="hardware/qcom/media-caf/msm7x27a" name="Caio99BR/android_hardware_qcom_audio-caf" revision="cm-12.1" />
+	<project path="hardware/qcom/audio-caf/msm7x27a" name="Caio99BR/android_hardware_qcom_audio-caf" revision="cm-12.1" />
 	<!-- TWRP -->
 	<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-5.1" />
 	<!-- Project Vee3 -->
